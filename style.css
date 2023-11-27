@@ -40,6 +40,10 @@ a{
 .justify-content-center{
     justify-content: center;
 }
+
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
 /* BOOTSTRAP END */
 
 header{
@@ -174,3 +178,32 @@ header .right-nav ul li:nth-child(6) a{
     width: 80%;
     height: 100%;
 }
+
+.info{
+    padding: 40px;
+    background-color: #F7F5F2;
+    text-align: center;
+}
+
+.info h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.info h4{
+    font-weight: 500;
+}
+
+.info a{
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* CARD SECTION START */
+.card-section{
+    border: 1px solid red;
+    margin-inline: 200px;
+}
+
+/* CARD SECTION END */
