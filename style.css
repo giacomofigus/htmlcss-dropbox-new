@@ -422,4 +422,66 @@ header .right-nav ul li:nth-child(6) a{
     font-weight: 500;
 }
 
+.bottom-box{
+    padding-inline: 100px;
+}
+
+.bottom-box h2{
+    font-size: 40px;
+}
+
+.bottom-box a{
+    background-color: #0061FE;
+    width: 300px;
+    padding: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
 /* DROPBOX PLAN END */
+
+/* FOOTER START */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: black;
+    color: white;
+    
+}
+
+footer nav{
+    display: flex;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+footer nav ul:first-of-type li:nth-child(6) {
+    margin-bottom: 80px;
+}
+
+footer nav ul:first-of-type hr{
+    margin-bottom: 50px;
+}
+
+footer nav ul:first-of-type a{
+    font-weight: 300;
+}
+
+footer nav ul:first-of-type i{
+    margin-inline: 10px;
+}
+
+footer nav ul li:first-child{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom:20px ;
+}
+
+footer nav ul li:not(:first-child){
+    line-height: 40px;
+    font-weight: 300;
+}
+/* FOOTER END */
