@@ -20,6 +20,10 @@ a{
     text-decoration: none;
 }
 
+svg.animation{
+    fill: white;
+}
+
 /* BOOTSTRAP */
 .d-flex{
     display: flex;
@@ -163,7 +167,6 @@ header .right-nav ul li:nth-child(6) a{
 }
 
 .hero .left-hero .cta svg{
-    fill: white;
     margin-left: 10px;
     font-weight: 300;
 }
@@ -208,7 +211,6 @@ header .right-nav ul li:nth-child(6) a{
 
 /* CARD SECTION START */
 .container{
-    border: 1px solid lime;
     flex-wrap: wrap;
 }
 
@@ -274,10 +276,6 @@ header .right-nav ul li:nth-child(6) a{
     margin-bottom: 20px;
 }
 
-.card-section .cards .card .btn svg{
-    fill: white;
-}
-
 .card-section .cards .card .cta{
     color: black;
     text-decoration: underline;
@@ -294,3 +292,93 @@ header .right-nav ul li:nth-child(6) a{
     font-size: 16px;
 }
 /* CARD SECTION END */
+
+/*INFO SECTION START */
+.container-2{
+    background-color: #F7F5F2;
+    padding:70px;
+}
+
+.container-2 h3{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 90px;
+}
+
+.container-2 .row .box{
+    flex-basis: calc(100% / 4);
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.container-2 .row .box h4{
+    margin-bottom: 20px;
+}
+
+.bottom-box{
+    background-color: #1E1919;
+    color: white;
+    padding-block: 60px;
+}
+
+.bottom-box h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.bottom-box a{
+    text-decoration: underline;
+    color: white;
+}
+
+.bottom-box svg{
+    margin-left: 15px;
+}
+/* INFO SECTION END */
+
+/* BRANDS SECTION START */
+.brands{
+    background-color: #2B2929;
+    border: 1px solid #00ff00;
+    padding-block: 80px;
+    padding-inline: 80px;
+}
+
+.brands > svg{
+    font-size: 180px;
+}
+
+.brands figure{ 
+    background-color: #B4DC19;
+    padding-inline: 100px;
+    padding-block: 180px;
+}
+
+.brands > div{
+    color: white;
+}
+
+.brands > div blockquote{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.brands > div a{
+    color: white;
+    text-decoration: underline;
+}
+
+.brands > div cite:first-child{
+    display: block;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.brands > div cite:last-child{
+    font-style: normal;
+    font-size: 13px;
+    color: grey;
+    margin-top: 5px;
+}
+/* BRANDS SECTION END */
